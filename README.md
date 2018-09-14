@@ -44,6 +44,15 @@ For å finne ut hvordan du leser av sensorer kan du lese følgende dokumentasjon
 https://docs.pycom.io/tutorials/pysense
 https://startiot.telenor.com/learning/pysense-quick-start-guide/
 
+MERK: For å bruke sensorene trenger du noen libs. Disse kan lastes ned fra:
+https://github.com/pycom/pycom-libraries
+
+Husk å kjør "upload" og ikke "Run" når du har avhengigheter/libs. 
+
+
+## Nettverk
+Her kan du lese mer om nettverkoppsett:
+https://startiot.telenor.com/tutorials/lopy-mqtt-wi-fi/
 
 ## Managed IoT:
 Telenor har laget en tjeneste som kan motta informasjon fra sensorer trådløst.  
