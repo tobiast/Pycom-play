@@ -8,7 +8,6 @@ https://docs.pycom.io/
 
 Jeg har testet gjennom det enkleste tenkelige programmet og har beskrevet prosessen her, for en rask start:
 
-
 ## Install.
 Dere trenger en editor med support for PyCom sine devicer. Det er to alternativ:
 - MS Visual Studio Code med plugin
@@ -18,7 +17,6 @@ Jeg beskriver kun prosessen for Atom .
 
 - Last ned Atom fra atom.io
 - Installere PyCom plugin fra Atom -> Preferences -> Install. Søk opp offisiell "PyCom" plug-in. Installer denne.
-
 
 ## RGB-blink
 For å komme igang skal vi kjøre et lite program som blinker dioden i forskjellige farger.
@@ -34,7 +32,7 @@ For å kjøre kode på FiPy må du først finne adressen til porten den er koble
 
 Hos meg ble dette: "/dev/cu.usbmodemPyfaa1b1""
 
-Oppdater property "address" i pymakr.conf med denne verdien.
+Oppdater property "address" i pymakr.conf med denne verdien. Address kan også inneholde en IP-addresse hvis devicen er satt opp med nettverk.
 
 Test oppsettet ved å trykke connect i editoren. Høyreklikk på main.py og vel "run"
 
