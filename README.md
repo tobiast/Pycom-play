@@ -42,6 +42,7 @@ https://docs.pycom.io/gettingstarted/programming/first-project
 ## Sensoravlesning
 For å finne ut hvordan du leser av sensorer kan du lese følgende dokumentasjon:
 https://docs.pycom.io/tutorials/pysense
+https://startiot.telenor.com/learning/pysense-quick-start-guide/
 
 
 ## Managed IoT:
